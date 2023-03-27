@@ -6,14 +6,13 @@
 }
 body{
     background-image: url(./images/pattern-background-desktop.svg);
-    width: 100%;
-    height: auto;
-}
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;  
+    /* width: 100%;
+    height: auto; */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-size: contain;
 }
 .card{
     box-shadow: 0 4px 8px 0;
