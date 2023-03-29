@@ -5,10 +5,10 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 body{
-    background-image: url(./images/pattern-background-desktop.svg);
+    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
     /* width: 100%;
     height: auto; */
-    background-repeat: no-repeat;
     min-height: 100vh;
     display: grid;
     place-items: center;
